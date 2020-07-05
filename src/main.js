@@ -9,6 +9,11 @@ import ZmUI from '../packages/index';
 
 Vue.use(ZmUI);
 
+import 'ant-design-vue/dist/antd.css';
+import { Menu } from 'ant-design-vue';
+
+Vue.use(Menu);
+
 new Vue({
     router,
     store,
